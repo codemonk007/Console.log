@@ -9,7 +9,7 @@ for (var i = 0; i < 3; i++) {
 // when log function is executed it asks heap to provide the value , which is 3 now.
   
 // --solution
-1.for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
   const log = () => {
     console.log(i);
   }

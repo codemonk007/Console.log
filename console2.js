@@ -1,7 +1,6 @@
 'use strict';
 function Person(name, age){
     console.log(this.name);
-    
 this.name = name || 'John';
 this.age = age || 24;
 this.displayName = function(){

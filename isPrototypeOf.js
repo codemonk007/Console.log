@@ -4,7 +4,6 @@ function isPrototype(){
     
     console.log(
       obj1.isPrototypeOf(obj2)  
-    ); 
-   
+    );    
   }
   isPrototype()
